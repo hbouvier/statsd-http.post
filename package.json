@@ -1,0 +1,25 @@
+{
+    "name": "statsd-http.post",
+    "description": "StatsD backend to post stats over http",
+    "version": "0.0.1",
+    "author": "Henri Bouvier",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/hbouvier/statsd-http.post.git"
+    },
+    "main": "./lib/statsd-http.post",
+    "dependencies": {
+        "winston" : "latest"
+    },
+    "devDependencies": {
+    },
+    "license": "GNU LGPLv3",
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "keywords": [
+        "http",
+        "post",
+        "statsd"
+    ]
+}
